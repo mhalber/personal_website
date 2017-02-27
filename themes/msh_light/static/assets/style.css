@@ -1,0 +1,123 @@
+/*Page wide settings*/
+
+html
+{
+  background-color: #FFFEFD;
+  font-family: 'Martel', serif;
+  margin-top:0px;
+}
+
+body
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:64px;
+  width: 960px;
+  margin-bottom:64px;
+}
+
+
+.header
+{
+  background-color: #FFFEFD;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:64px;
+  line-height: 32px;
+  border-bottom: 1px dashed gray;
+}
+
+.header-content
+{
+  margin-left: auto;
+  margin-right: auto;
+  width:960px;
+}
+
+h1.page_title
+{
+  float:left;
+}
+
+.fa
+{
+  float:right;
+  text-align: right;
+  margin-top:16px;
+  margin-left:32px;
+  color:black;
+}
+
+p
+{
+  text-align: justify;
+}
+
+a
+{
+  color: #317EFF;
+}
+
+a:hover
+{
+  color: #099BF8;
+}
+
+table
+{
+  width: 100%;
+}
+
+tr
+{
+  padding-top:100px;
+  padding-bottom:10px;
+  border: 1px solid black;
+}
+
+td
+{
+  padding: 5px; 
+  padding-left: 20px;
+}
+
+td.image
+{
+  text-align:center;
+}
+
+img.miniature
+{
+  height: 128px;
+}
+
+/*Post summary elements*/
+
+ul.posts_summary
+{
+  list-style-type: none;
+  padding:0px;
+}
+
+li.posts_summary
+{
+  padding-top:10px;
+  padding-bottom:10px;
+  border-bottom: 1px dashed lightsteelblue;
+}
+
+a.posts_summary
+{
+  font-size:24px;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+#time
+{
+  font-size:11px;
+  text-align: right;
+  color:gray;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>{{.Title}}</title>
+    <link rel="stylesheet" href="{{.Site.BaseURL}}/assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Martel:400,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/df431d87ca.js"></script>
+
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+  </head>
+  
+  <body>
+
+    ​<div class="header"><div class="header-content">  
+      <h1 class="page_title">
+        {{if .IsHome}}maciej halber{{end}}
+        {{if eq .Section "blog"}}maciej's notes{{end}}
+        </h1>
+      <a href="https://github.com/mhalber"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+      <!--<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>-->
+      <a href="{{.Site.BaseURL}}/blog/"><i class="fa fa-pencil fa-2x" aria.z/z-hidden="true"></i></a>
+      <!--<i class="fa fa-paint-brush fa-2x" aria-hidden="true"></i>-->
+      <a href="{{.Site.BaseURL}}"><i class="fa fa-book fa-2x" aria-hidden="true"></i></a>
+    </div></div>

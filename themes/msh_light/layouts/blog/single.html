@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+
+<h1>{{.Title}}</h1>
+
+{{ .Content }}
+
+</br>
+<!--<a href="{{.Site.BaseURL}}/{{.Section}}"> TEst </a>
+</br>-->
+
+{{if .PrevInSection}}<a href={{.PrevInSection.Permalink}}> <- </a>{{end}}
+{{if .NextInSection}}<a href={{.NextInSection.Permalink}}> -> </a>{{end}}
+
+{{ partial "footer.html" . }}
