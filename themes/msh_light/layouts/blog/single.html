@@ -1,14 +1,30 @@
 {{ partial "header.html" . }}
 
 <h1>{{.Title}}</h1>
-
 {{ .Content }}
-
 </br>
-<!--<a href="{{.Site.BaseURL}}/{{.Section}}"> TEst </a>
-</br>-->
-
-{{if .PrevInSection}}<a href={{.PrevInSection.Permalink}}> <- </a>{{end}}
-{{if .NextInSection}}<a href={{.NextInSection.Permalink}}> -> </a>{{end}}
+<table class="post_nav_bar">
+  <tr>
+    <td class="post_nav_prev"> 
+      {{if .PrevInSection}} 
+        <a href={{.PrevInSection.Permalink}}>
+          <i class="fa fa-angle-left fa-lg" aria-hidden="true"></i>
+        </a> 
+      {{end}} 
+    </td>
+    <td class="post_nav_home"> 
+      <a href="{{.Site.BaseURL}}/blog/">
+        <i class="fa fa-home fa-lg" aria.z/z-hidden="true"></i>
+      </a> 
+    </td>
+    <td class="post_nav_next"> 
+      {{if .NextInSection}} 
+        <a href={{.NextInSection.Permalink}}>
+          <i class="fa fa-angle-right fa-lg" aria-hidden="true"></i>
+        </a> 
+      {{end}} 
+    </td>
+  </tr>
+</table>
 
 {{ partial "footer.html" . }}

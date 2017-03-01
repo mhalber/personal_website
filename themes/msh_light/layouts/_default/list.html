@@ -1,6 +1,7 @@
 {{ partial "header.html" . }}
 
   <ul class=posts_listing>
+    TEST
     {{ range .Data.Pages.ByPublishDate }}
       <li>
         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>

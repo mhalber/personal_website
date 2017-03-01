@@ -12,7 +12,7 @@ body
   margin-left: auto;
   margin-right: auto;
   margin-top:64px;
-  width: 960px;
+  width: 900px;
   margin-bottom:64px;
 }
 
@@ -20,7 +20,7 @@ body
 .header
 {
   background-color: #FFFEFD;
-  position:fixed;
+  position:absolute;
   top:0;
   left:0;
   width:100%;
@@ -33,7 +33,7 @@ body
 {
   margin-left: auto;
   margin-right: auto;
-  width:960px;
+  width:900px;
 }
 
 h1.page_title
@@ -43,11 +43,15 @@ h1.page_title
 
 .fa
 {
+  color:black;
+}
+
+.fa.top_nav
+{
   float:right;
   text-align: right;
   margin-top:16px;
   margin-left:32px;
-  color:black;
 }
 
 p
@@ -105,13 +109,21 @@ li.posts_summary
 {
   padding-top:10px;
   padding-bottom:10px;
-  border-bottom: 1px dashed lightsteelblue;
+  border-bottom: 1px dashed lightgray;
 }
 
 a.posts_summary
 {
   font-size:24px;
   font-weight:bold;
+  text-decoration:none;
+  color:black;
+}
+
+a.read_more
+{
+  text-align:right;
+  float:right;
   text-decoration:none;
 }
 
@@ -120,4 +132,29 @@ a.posts_summary
   font-size:11px;
   text-align: right;
   color:gray;
+  float:right;
+  line-height:48px;
+}
+
+/*Post setting wide settings*/
+table.post_nav_bar
+{
+  border-top: 1px dashed lightgray;
+  width:100%;
+}
+
+td.post_nav_prev
+{
+  text-align: left;
+  width:33%;
+}
+td.post_nav_home
+{
+  text-align: center;
+  width:33%;
+}
+td.post_nav_next
+{
+  text-align: right;
+  width:33%;
 }

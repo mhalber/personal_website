@@ -3,9 +3,13 @@
 <ul class=posts_summary>
   {{ range .Data.Pages.ByPublishDate }}
     <li class="posts_summary">
-      <a class="posts_summary" href="{{ .Permalink }}">{{ .Title }}</a></br>
+      <a class="posts_summary" href="{{ .Permalink }}">{{ .Title }}</a>
+      <div id="time"><time>{{ .Date.Format "Jan 2, 2006" }}</time></div>
+      <div style="clear:both;"></div>
       {{.Summary}}
-      <div id="time"><time>{{ .Date.Format (.Site.Params.dateform | default "January 2006") }}</time></div>
+      <br>
+      <a class="read_more" href="{{ .Permalink }}" > Read More...</a>
+      <div style="clear:both;"></div>
     </li>
   {{ end }}
 </ul>
