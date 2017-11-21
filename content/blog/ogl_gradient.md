@@ -4,6 +4,7 @@ draft = true
 title = "OpenGL Gradient Background"
 
 +++
+
 First of all, hello to my new blog :) I've made a bunch of blog-writing attempts
 in the past, with a little-to-no success. So let's hope this time it works out!
 
@@ -192,11 +193,12 @@ executed only once.
 
 # Results
 
+<div style="text-align:center;"> <img style="width:100%;" src="gradients_results.png"> </div>
 
-Now we can create pretty background! I've posted my implementation project [] (here).
+Now we can create "pretty" gradient backgrounds! I've posted my implementation project [here](https://gist.github.com/mhalber/0a9b8a78182eb62659fc18d23fe5e94e).
 Even though we have only created shaders for vertical linear graident, modifying
 the code to support other form of gradients should not be very hard. Also
 note that once you have the full-screen triangle, the world is your oyster, and
-you are all set to do the [fragment-shader] (http://www.iquilezles.org/www/material/nvscene2008/rwwtt.pdf) [magic] (https://www.shadertoy.com)!
+you are all set to do the [fragment-shader](http://www.iquilezles.org/www/material/nvscene2008/rwwtt.pdf) [magic](https://www.shadertoy.com)!
 
 

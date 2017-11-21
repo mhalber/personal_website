@@ -3,6 +3,9 @@
 <h1>{{.Title}}</h1>
 {{ .Content }}
 </br>
+
+{{ template "_internal/disqus.html" . }}
+
 <table class="post_nav_bar">
   <tr>
     <td class="post_nav_prev"> 
