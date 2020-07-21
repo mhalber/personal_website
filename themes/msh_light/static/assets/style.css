@@ -3,9 +3,10 @@
 html
 {
   background-color: #FFFEFD;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 22px;
+  color: #333;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
   margin-top:0px;
 }
 
@@ -18,7 +19,6 @@ body
   margin-bottom:64px;
 }
 
-
 .header
 {
   background-color: #FFFEFD;
@@ -28,7 +28,7 @@ body
   width:100%;
   height:64px;
   line-height: 32px;
-  border-bottom: 1px dashed gray;
+  border-bottom:1px solid #DDD;
 }
 
 .header-content
@@ -41,38 +41,53 @@ body
 h1.page_title
 {
   float:left;
-  font-family: 'Martel', serif;
+  font-family: 'Lato', sans-serif;
+  color: #444;
+  font-weight:normal;
 }
 
 h1
 {
-  font-family: 'Martel', serif;
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+  color: #444;
 }
 
 h2
 {
   margin-top: 35px;
-  font-family: 'Martel', serif;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color: #444;
 }
 
 h3
 {
   margin-top: 35px;
-  font-family: 'Martel', serif;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color: #444;
 }
 
 .fa
 {
-  color:black;
+  color:#444;
+}
+
+.fa:hover
+{
+  color: #317EFF;
 }
 
 .fa.top_nav
 {
   float:right;
   text-align: right;
-  margin-top:16px;
-  margin-left:32px;
+  line-height: 32px;
+  margin-top:19px;
+  margin-left:10px;
 }
+
 
 p
 {
@@ -89,6 +104,17 @@ a:hover
   color: #099BF8;
 }
 
+
+img[src$='#center']
+{
+    display: block;
+    width: 512px;
+    margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+    /* whatever else styles you fancy here */
+}
+
 /*Post summary elements*/
 
 ul.posts_summary
@@ -101,7 +127,7 @@ li.posts_summary
 {
   padding-top:10px;
   padding-bottom:10px;
-  border-bottom: 1px dashed lightgray;
+  border-bottom:1px solid #DDD;
 }
 
 a.posts_summary
@@ -110,22 +136,6 @@ a.posts_summary
   font-weight:bold;
   text-decoration:none;
   color:black;
-}
-
-a.read_more
-{
-  text-align:right;
-  float:right;
-  text-decoration:none;
-}
-
-#time
-{
-  font-size:11px;
-  text-align: right;
-  color:gray;
-  float:right;
-  line-height:48px;
 }
 
 
@@ -141,15 +151,14 @@ table
 
 table tr
 {
-	border-top:1px solid #ccc;
-	background-color:#f8f8f8;
+	border-top:1px solid #FFFEFD;
 	margin:0;
 	padding:0;
 }
 
 table tr th
 {
-  border:1px solid #ccc;
+  border:1px solid #FFFEFD;
 	border-bottom:2px solid #aaa;
   text-align:left;
 	margin:0;
@@ -167,7 +176,7 @@ table tr th[align="center"], table tr td[align="center"] {
 
 table tr td
 {
-	border:1px solid #ccc;
+	border:1px solid #FFFEFD;
 	text-align:left;
 	margin:0;
 	padding:6px 13px;
@@ -179,35 +188,32 @@ table tr td
 table.publ
 {
   width: 100%;
-  border:0px solid #ccc;
+  border:0px solid #FFFEFD;
 }
 
 tr.publ
 {
-  padding-top:100px;
-  padding-bottom:10px;
-  border: 1px solid #fff;
-  background-color:#fff;
+  background-color:#FFFEFD;
+  border: 1px solid #FFFEFD;
 }
 
 tr.publ:nth-child(2n)
 {
-  background-color:#fff;
-  border: 1px solid #fff;
+  background-color:#FFFEFD;
+  border: 1px solid #FFFEFD;
 }
 
 td.publ
 {
-  font-family: 'Martel', serif;
-  padding: 5px; 
-  padding-left: 20px;
-  border:0px solid #fff;
+  vertical-align: top;
+  font-family: 'Lato', sans-serif;
+  border:0px solid #FFFEFD;
 }
 
 td.publ_image
 {
   text-align:center;
-  border:0px solid #fff;
+  border:0px solid #FFFEFD;
 }
 
 img.publ_miniature
@@ -215,28 +221,34 @@ img.publ_miniature
   height: 128px;
 }
 
-/*NAvigation*/
+/*Navigation*/
 table.post_nav_bar
 {
-  border-top: 1px dashed lightgray;
-  width:100%;
+  border: 0px solid #FFFEFD;
+  border-top: 0px solid  #FFFEFD;
+  width:100%;;
 }
-
+tr.post_nav_row
+{
+  text-align: left;
+  border:0px solid #FFFEFD;
+  width:33%;
+}
 td.post_nav_prev
 {
   text-align: left;
-  border:0px solid #fff;
+  border:0px solid #FFFEFD;
   width:33%;
 }
 td.post_nav_home
 {
   text-align: center;
-  border:0px solid #fff;
+  border:0px solid #FFFEFD;
   width:33%;
 }
 td.post_nav_next
 {
   text-align: right;
-  border:0px solid #fff;
+  border:0px solid #FFFEFD;
   width:33%;
 }

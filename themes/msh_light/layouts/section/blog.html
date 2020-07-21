@@ -1,15 +1,10 @@
 {{ partial "header.html" . }}
 
 <ul class=posts_summary>
-  {{ range .Data.Pages.ByPublishDate }}
+  {{ range .Data.Pages.ByPublishDate.Reverse }}
     <li class="posts_summary">
-      <a class="posts_summary" href="{{ .Permalink }}">{{ .Title }}</a>
-      <div id="time"><time>{{ .Date.Format "Jan 2, 2006" }}</time></div>
-      <div style="clear:both;"></div>
-      {{.Summary}}
-      <br>
-      <a class="read_more" href="{{ .Permalink }}" > Read More...</a>
-      <div style="clear:both;"></div>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <span style="font-size:11px;float:right"><time>{{ .Date.Format "Jan 2, 2006" }}</time></span>
     </li>
   {{ end }}
 </ul>

@@ -1,8 +1,8 @@
 {{ partial "header.html" . }}
 
-<p>I am currently a graduate student at <a href = "http://cs.princeton.edu/">Princeton University</a>, where I am a member of the <a href = "http://gfx.cs.princeton.edu/">Graphics</a> and <a href = "http://vision.cs.princeton.edu/">Vision</a> groups, working with prof. <a href = "http://www.cs.princeton.edu/~funk/" >Thomas Funkhouser</a>. These days you can usually find me in Princeton's Computer Science Department building, office 414.</p>
+<p>I have graduated from <a href = "http://cs.princeton.edu/">Princeton University</a>, where I was a member of the <a href = "http://gfx.cs.princeton.edu/">Graphics</a> and <a href = "http://vision.cs.princeton.edu/">Vision</a> groups, working with prof. <a href = "http://www.cs.princeton.edu/~funk/" >Thomas Funkhouser</a>. Off to new adventures now!</p>
 
-<p>Prior to coming to Princeton, I was studying in at <a href = "http://www.ucl.ac.uk/"> University College London</a>, where I received Master of Engineering degree, working with prof. <a href = "http://www0.cs.ucl.ac.uk/people/S.Julier.html"> Simon Julier</a> and prof. <a href = "http://www0.cs.ucl.ac.uk/staff/n.mitra/"> Niloy Mitra.</a> </p>
+<p>Prior to Princeton, I was studying at <a href = "http://www.ucl.ac.uk/"> University College London</a>, where I received Master of Engineering degree, working with prof. <a href = "http://www0.cs.ucl.ac.uk/people/S.Julier.html"> Simon Julier</a> and prof. <a href = "http://www0.cs.ucl.ac.uk/staff/n.mitra/"> Niloy Mitra.</a> </p>
 
 
 <br>
@@ -11,10 +11,32 @@
 <table class="publ">
 
   <tr class="publ">
+    <td class="publ_image"><img class="publ_miniature" src="assets/publ_thumbs/sat_conv.png"></td>
+    <td class="publ">      
+      <b>Accelerating Large-Kernel Convolution Using Summed-Area Tables</b><br>
+      <i>L.Zhang, <b>M. Halber</b>, S. Rusinkiewicz;</i><br>
+      <a href = "https://arxiv.org/pdf/1906.11367.pdf">[preprint]</a>
+    </td>
+  </tr>
+
+
+  <tr class="publ">
+    <td class="publ_image"><img class="publ_miniature" src="assets/publ_thumbs/rescan.jpg"></td>
+    <td class="publ">      
+      <b>Rescan: Inductive Instance Segmentation for Indoor RGBD Scans</b><br>
+      <i><b>M. Halber</b>, Y.Shi, K. Xu, T.Funkhouser;</i><br>
+      ICCV 2019<br>
+      <a href = "https://rescan.cs.princeton.edu/assets/Halber19Rescan.pdf">[pdf]</a>
+      <a href = "https://rescan.cs.princeton.edu">[webpage]</a>
+      <a href = "https://github.com/mhalber/Rescan">[code]</a>
+    </td>
+  </tr>
+
+  <tr class="publ">
     <td class="publ_image"><img class="publ_miniature" src="assets/publ_thumbs/matterport.png"></td>
     <td class="publ">      
-      A. X. Chang, A. Dai, T. Funkhouser, <b>M. Halber</b>, M. Nießner, M. Savva, S. Song, A. Zeng, Y. Zhang;<br>
-      <i>Matterport3D: Learning from RGB-D Data in Indoor Environments</i><br>
+      <b>Matterport3D: Learning from RGB-D Data in Indoor Environments</b><br>
+      <i>A. X. Chang, A. Dai, T. Funkhouser, <b>M. Halber</b>, M. Nießner, M. Savva, S. Song,<br> A. Zeng, Y. Zhang;</i><br>
       3DV 2017<br>
       <a href = "https://arxiv.org/pdf/1709.06158.pdf">[pdf]</a>
       <a href = "https://github.com/niessner/Matterport">[webpage]</a>
@@ -25,8 +47,8 @@
   <tr class="publ">
     <td class="publ_image"><img class="publ_miniature" src="assets/publ_thumbs/scannet.png"></td>
     <td class="publ">      
-      A. Dai, A. X. Chang, M. Savva, <b>M. Halber</b>, T. Funkhouser, M. Nießner;<br>
-      <i>ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes</i><br>
+      <b>ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes</b><br>
+      <i> A. Dai, A. X. Chang, M. Savva, <b>M. Halber</b>, T. Funkhouser, M. Nießner;</i><br>
       CVPR 2017<br>
       <a href = "https://arxiv.org/pdf/1702.04405">[pdf]</a>
       <a href = "http://www.scan-net.org/">[webpage]</a>
@@ -36,8 +58,8 @@
   <tr class="publ">
     <td class="publ_image"><img class="publ_miniature" src="assets/publ_thumbs/fine2coarse.png"></td>
     <td class="publ">      
-      <b>M. Halber</b>, T. Funkhouser; <br>
-      <i>Fine-To-Coarse Global Registration of RGB-D Scans</i><br>
+      <b>Fine-To-Coarse Global Registration of RGB-D Scans</b><br>
+      <i><b>M. Halber</b>, T. Funkhouser;</i><br>
       CVPR 2017<br>
       <a href = "http://scanregistration.cs.princeton.edu/assets/HalberF2C_CVPR2017.pdf">[pdf]</a><a href="http://scanregistration.cs.princeton.edu">[webpage]</a><a href="https://github.com/mhalber/Fine-To-Coarse-Registration">[code]</a>
     </td>
@@ -46,9 +68,9 @@
   <tr class="publ">
     <td class="publ_image"><img class="publ_miniature" src="assets/publ_thumbs/detailtransfer.jpg"></td>
     <td class="publ">      
-      S. Berkiten, <b>M. Halber</b>, J. Solomon, C. Ma, H. Li,  S. Rusinkiewicz; <br>
-      <i>Learning Detail Transfer based on Geometric Features</i><br>
-      Eurographics 2017 <b>Best Paper Award Honorable Mention</b><br>
+      <b>Learning Detail Transfer based on Geometric Features</b><br>
+      <i>S. Berkiten, <b>M. Halber</b>, J. Solomon, C. Ma, H. Li,  S. Rusinkiewicz;</i><br>
+      Eurographics 2017 <i><b>Best Paper Award Honorable Mention</b></i> <br>
       <a href = "http://surfacedetails.cs.princeton.edu/materials/surface_details_EG2017.pdf">[pdf]</a>
       <a href = "http://http://surfacedetails.cs.princeton.edu/">[webpage]</a>
     </td>
@@ -56,9 +78,9 @@
 
   <tr class="publ">
     <td class="publ_image"><img class="publ_miniature" src="assets/publ_thumbs/VARVAI16.png"></td>
-    <td class="publ">      
-      E. Sizikova, V. K. Singh, B. Georgescu, <b>M. Halber</b>, K. Ma, T. Chen; <br>
-      <i>Enhancing Place Recognition using Joint Intensity - Depth Analysis and Synthetic Data</i><br>
+    <td class="publ">
+      <b>Enhancing Place Recognition using Joint Intensity - Depth Analysis and Synthetic Data</b><br>
+      <i>E. Sizikova, V. K. Singh, B. Georgescu, <b>M. Halber</b>, K. Ma, T. Chen;</i><br>
       ECCV Workshop on Virtual/Augmented Reality for Visual Artificial Intelligence (VARVAI) 2016<br>
       <a href = "http://www.cs.princeton.edu/~sizikova/files/eccvw16.pdf">[pdf]</a>
       <a href = "http://www.cs.princeton.edu/~sizikova/files/eccvw16_poster.pdf">[poster] </a>
@@ -69,8 +91,8 @@
   <tr class="publ">
     <td class="publ_image"><img class="publ_miniature" src="assets/publ_thumbs/isomatch.png"></td>
     <td class="publ">      
-      O. Fried, S. DiVerdi, <b>M. Halber</b>, E. Sizikova and A. Finkelstein; <br>
-      <i>IsoMatch: Creating Informative Grid Layouts</i><br>
+      <b>IsoMatch: Creating Informative Grid Layouts</b><br>
+      <i>O. Fried, S. DiVerdi, <b>M. Halber</b>, E. Sizikova and A. Finkelstein;</i><br>
       Eurographics 2015<br>
       <a href = "http://www.cs.princeton.edu/~ohad/papers/FriedDiVerdiHalberSizikovaFinkelstein_Eurographics2015_HighRes.pdf">[pdf]
       </a> <a href = "http://www.cs.princeton.edu/~ohad/papers/FriedDiVerdiHalberSizikovaFinkelstein_Eurographics2015_LowRes.pdf">[pdf-small]
@@ -81,8 +103,8 @@
   <tr class="publ">
     <td class="publ_image"><img class="publ_miniature" src="assets/publ_thumbs/cwblen.jpg"></td>
     <td class="publ">      
-      <b>M. Halber</b>; <br>
-      <i>Blender Poradnik Praktyczny</i><br>
+      <b>Blender Poradnik Praktyczny</b><br>
+      <i><b>M. Halber;</b></i><br>
       ISBN 83-246-1190-8
     </td>
   </tr>

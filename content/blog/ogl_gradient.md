@@ -1,8 +1,7 @@
 +++
 date = "2017-03-01"
-draft = true
+draft = false
 title = "OpenGL Gradient Background"
-
 +++
 
 First of all, hello to my new blog :) I've made a bunch of blog-writing attempts
@@ -10,11 +9,9 @@ in the past, with a little-to-no success. So let's hope this time it works out!
 
 In this short article, I'll describe a neat little function that allows you to have
 a gradient backgrounds in your OpenGL applications, like the snazzy 3D apps 
-(Blender and Maya pictured below) do these days.
+(Blender pictured below) do these days.
 
-<div style="text-align:center;">
-<img src="gradient_blender.jpg"> &nbsp <img src="gradient_maya.jpg">
-</div>
+![BlenderViewport](gradient_blender.jpg#center)
 
 Our goal is to create a single function, working very much like the glClearColor,
 but rather than a single color it should be to accept arguments for colors at 

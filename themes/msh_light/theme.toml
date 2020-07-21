@@ -1,7 +1,7 @@
 name = "msh_light"
 license = "MIT"
 description = ""
-homepage = "https://www.cs.princeton.edu/~mhalber"
+homepage = "https://mhalber.github.io/"
 tags = []
 features = []
 min_version = 0.18
@@ -9,5 +9,4 @@ googleAnalytics = "UA-93944349-1"
 disqusShortname = "XYW"
 [author]
   name = "Maciej Halber"
-  homepage = "https://www.cs.princeton.edu/~mhalber"
-
+  homepage = "https://mhalber.github.io/"

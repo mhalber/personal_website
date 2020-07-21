@@ -1,4 +1,6 @@
-baseurl = "http://www.cs.princeton.edu/~mhalber/"
+baseurl = "https://mhalber.github.io/"
 languageCode = "en-us"
 title = "msh"
 theme = "msh_light"
+[markup.goldmark.renderer]
+unsafe= true

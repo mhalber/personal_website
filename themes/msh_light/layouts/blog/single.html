@@ -4,26 +4,33 @@
 {{ .Content }}
 </br>
 
-{{ template "_internal/disqus.html" . }}
-
 <table class="post_nav_bar">
-  <tr>
+  <tr class="post_nav_row">
     <td class="post_nav_prev"> 
       {{if .PrevInSection}} 
         <a href={{.PrevInSection.Permalink}}>
-          <i class="fa fa-angle-left fa-lg" aria-hidden="true"></i>
-        </a> 
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-angle-left fa-stack-1x fa-inverse"></i>
+        </span>
+      </a> 
       {{end}} 
     </td>
     <td class="post_nav_home"> 
       <a href="{{.Site.BaseURL}}/blog/">
-        <i class="fa fa-home fa-lg" aria.z/z-hidden="true"></i>
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-home fa-stack-1x fa-inverse"></i>
+        </span>
       </a> 
     </td>
     <td class="post_nav_next"> 
       {{if .NextInSection}} 
         <a href={{.NextInSection.Permalink}}>
-          <i class="fa fa-angle-right fa-lg" aria-hidden="true"></i>
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-angle-right fa-stack-1x fa-inverse"></i>
+          </span>
         </a> 
       {{end}} 
     </td>
