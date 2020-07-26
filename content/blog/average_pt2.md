@@ -132,7 +132,7 @@ $$
 $$
 with linear function $f$. I should most likely write down the derivation for this problem as well, but the reasoning is very similar.
 
-I also need to point out that all of the information in this post is well known in statistics. If you wish to find out more, I'd recommend reading up on M-Estimators in statistics, IRLS in general. Also there is under-appreciated and somewhat now-forgotten piece of work by Michael Black and Rangarajan. Lastly, more recently Jon Barron has published a wonderful paper[^barron19] that introduced a general robust loss function - definitely give it a read!
+I also need to point out that all of the information in this post is well known in statistics. If you wish to find out more, I'd recommend reading up on M-Estimators in statistics, and on IRLS in general. Also there is under-appreciated and somewhat now-forgotten piece of work by Michael Black and Rangarajan. Lastly, more recently Jon Barron has published a wonderful paper[^barron19] that introduced a general robust loss function - definitely give it a read!
 
 Comments, questions? Message me on [twitter](https://twitter.com/maciejhalber)
 
